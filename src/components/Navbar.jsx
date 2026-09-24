@@ -6,12 +6,12 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Experience", href: "#experience" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Skills", href: "/skills" },
+  { name: "Projects", href: "/projects" },
+  // { name: "Experience", href: "/experience" },
+  { name: "Contact", href: "/contact" },
 ];
 
 const Navbar = () => {
@@ -32,7 +32,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             className="text-xl font-bold tracking-tight"
           >
-            <span className="text-white">Ashik</span>
+            <span className="text-white">Ashik Sheikh</span>
             <span className="text-purple-500">.</span>
           </motion.div>
         </Link>

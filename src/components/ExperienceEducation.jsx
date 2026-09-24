@@ -101,8 +101,6 @@ const ExperienceEducation = () => {
   </div>
 </motion.div>
 
-
-
           {/* ================= EDUCATION ================= */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
